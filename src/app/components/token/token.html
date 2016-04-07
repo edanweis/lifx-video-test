@@ -1,0 +1,5 @@
+<input type="text" [(ngModel)]="tokenvalue" (keyup)="confirmToken($event, tokenvalue)"> <span [hidden]="error">TOKEN PASS :)</span><span [hidden]="!error">BAD AUTH</span>
+<p>{{response.statusText}}</p>
+<p>{{response.status}}</p>
+<p>{{response.url}}</p>
+<p>{{result}}</p>
